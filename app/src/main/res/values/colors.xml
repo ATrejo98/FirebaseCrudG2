@@ -2,4 +2,20 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="coral">#FF7F50</color> (Coral)
+    <color name="sunset_orange">#FD5E53</color> (Naranja atardecer)
+    <color name="peach">#FFDAB9</color> (Durazno)
+    <color name="salmon">#FA8072</color> (Salmón)
+    <color name="light_coral">#F08080</color> (Coral claro)
+    <color name="tomato">#FF6347</color> (Tomate)
+    <color name="dark_salmon">#E9967A</color> (Salmón oscuro)
+    <color name="orange_red">#FF4500</color> (Rojo naranja)
+    <color name="papaya_whip">#FFEFD5</color> (Batido de papaya)
+    <color name="melon">#FDBCB4</color> (Melón)
+    <color name="rosy_brown">#BC8F8F</color> (Marrón rosado)
+    <color name="indian_red">#CD5C5C</color> (Rojo indio)
+    <color name="bisque">#FFE4C4</color> (Bizcocho)
+    <color name="peach_puff">#FFDAB9</color> (Cachete)
+    <color name="dark_orange">#FF8C00</color> (Naranja oscuro)
+
 </resources>

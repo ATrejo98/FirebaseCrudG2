@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Firebase Crud G2</string>
+    <string name="hint_nombres">Nombres:</string>
+    <string name="hint_apellidos">Apellidos:</string>
+    <string name="hint_edad">Edad:</string>
+    <string name="hint_correo">Correo electronico:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="btn_guarda">Guardar Registro</string>
+    <string name="btn_editar">Actualizar Registro</string>
+
+    <string name="msg_about_version">Version</string>
+    <string name="dialog_option_ok">Aceptar</string>
+    <string name="app_copyright">Copyright © 2024 \nProg. Movil 1 - Grupo #2. \nAll right reserved</string>
+    <string name="app_integrantes">Yefrin Amaya - 201710010063 \nIsmael Mayorga - 202030070024 \nJuan Angel Trejo - 201910010070 \nDamaris Muñoz - 202110050094 \nMarlon Bonilla - 202210070066 \nKevin Perez - 201710010290 \nAriel Flores</string>
+
 </resources>

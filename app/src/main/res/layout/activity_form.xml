@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/viewNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_nombres" />
+
+        <EditText
+            android:id="@+id/txtNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombres"
+            android:hint="Escriba aqui sus nombres"
+            android:textSize="18sp"
+            android:maxLength="20"/>
+
+        <TextView
+            android:id="@+id/viewApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_apellidos" />
+
+        <EditText
+            android:id="@+id/txtApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:hint="Escriba aqui sus apellidos"
+            android:textSize="18sp"
+            android:maxLength="25"/>
+
+        <TextView
+            android:id="@+id/viewEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_edad" />
+
+        <EditText
+            android:id="@+id/txtEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:labelFor="@+id/viewEdad"
+            android:hint="Escriba aqui su edad"
+            android:textSize="18sp"
+            android:maxLength="2"/>
+
+        <TextView
+            android:id="@+id/viewCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_correo" />
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:hint="Escriba aqui su correo electronico"
+            android:textSize="18sp"
+            android:maxLength="30"/>
+
+        <TextView
+            android:id="@+id/viewTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_telefono" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:labelFor="@+id/viewTelefono"
+            android:hint="Escriba aqui su numero telefonico"
+            android:textSize="18sp"
+            android:maxLength="10"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/coral"
+            android:text="@string/btn_guarda"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -30,7 +30,6 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         txtNombres = findViewById(R.id.txtNombres);
-        txtApellidos = findViewById(R.id.txtApellidos);
         txtEdad = findViewById(R.id.txtEdad);
         txtCorreo = findViewById(R.id.txtCorreo);
         txtTelefono = findViewById(R.id.txtTelefono);
@@ -39,9 +38,8 @@ public class DetailActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null){
-            txtNombres.setText(bundle.getString("Nombres"));
-            txtApellidos.setText(bundle.getString("Apellidos"));
-            txtEdad.setText(bundle.getString("Edad"));
+            txtNombres.setText(bundle.getString("Nombres")+" "+bundle.getString("Apellidos"));
+            txtEdad.setText(bundle.getString("Edad")+" Años");
             txtCorreo.setText(bundle.getString("Correo"));
             txtTelefono.setText(bundle.getString("Telefono"));
             key = bundle.getString("Key");

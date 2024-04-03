@@ -40,10 +40,10 @@ public class DetailActivity extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         if (bundle != null){
             txtNombres.setText(bundle.getString("Nombres"));
-            txtNombres.setText(bundle.getString("Apellidos"));
-            txtEdad.setText("Edad: "+bundle.getString("Edad")+" Años");
-            txtCorreo.setText("Correo: "+bundle.getString("Correo"));
-            txtTelefono.setText("Telefono: "+bundle.getString("Telefono"));
+            txtApellidos.setText(bundle.getString("Apellidos"));
+            txtEdad.setText(bundle.getString("Edad")+" Años");
+            txtCorreo.setText(bundle.getString("Correo"));
+            txtTelefono.setText(bundle.getString("Telefono"));
             key = bundle.getString("Key");
         }
         deleteButton.setOnClickListener(new View.OnClickListener() {

@@ -59,7 +59,7 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(DetailActivity.this, UpdateActivity.class)
-                        .putExtra("Hombres",  txtNombres.getText().toString())
+                        .putExtra("Nombres",  txtNombres.getText().toString())
                         .putExtra("Apellidos", txtApellidos.getText().toString())
                         .putExtra("Edad", txtEdad.getText().toString())
                         .putExtra("Key", key);

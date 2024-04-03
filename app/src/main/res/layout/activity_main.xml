@@ -16,7 +16,7 @@
         android:id="@+id/search"
         app:iconifiedByDefault="false"
         app:searchHintIcon="@null"
-        app:queryHint="Search..."
+        app:queryHint="Buscar..."
         android:focusable="false"
         app:closeIcon="@drawable/ic_account"
         app:searchIcon="@drawable/ic_add"

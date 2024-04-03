@@ -1,6 +1,6 @@
 package com.uth.firebasecrudg2.model;
 
-public class Persona {
+public class PersonaBK {
 
     public String nombre;
     public String apellidos;
@@ -9,23 +9,16 @@ public class Persona {
     public String telefono;
     private String key;
 
-    public Persona() {
+    public PersonaBK() {
 
     }
 
-    public Persona(String uid, String nombre, String apellidos, String edad, String correo, String telefono) {
+    public PersonaBK(String uid, String nombre, String apellidos, String edad, String correo, String telefono) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
         this.correo = correo;
         this.telefono = telefono;
-    }
-
-    public String getKey() {
-        return key;
-    }
-    public void setKey(String key) {
-        this.key = key;
     }
 
     public String getNombre() {

@@ -15,7 +15,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.uth.firebasecrudg2.model.Persona;
+import com.uth.firebasecrudg2.model.PersonaBK;
 
 
 public class ActivityFormulario extends AppCompatActivity {
@@ -60,7 +60,7 @@ public class ActivityFormulario extends AppCompatActivity {
                 } else {
 
 
-                    Persona persona = new Persona(null, nombres, apellidos, edad, correo, telefono);
+                    PersonaBK persona = new PersonaBK(null, nombres, apellidos, edad, correo, telefono);
 
                     String clave = databaseReference.push().getKey();
 

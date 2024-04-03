@@ -62,6 +62,8 @@ public class DetailActivity extends AppCompatActivity {
                         .putExtra("Nombres",  txtNombres.getText().toString())
                         .putExtra("Apellidos", txtApellidos.getText().toString())
                         .putExtra("Edad", txtEdad.getText().toString())
+                        .putExtra("Correo", txtCorreo.getText().toString())
+                        .putExtra("Telefono", txtTelefono.getText().toString())
                         .putExtra("Key", key);
                 startActivity(intent);
             }
